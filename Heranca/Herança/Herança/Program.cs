@@ -10,6 +10,11 @@ namespace Heranca
     {
         static void Main(string[] args)
         {
+            Computador pcJanynne = new Computador();
+
+            pcJanynne.Ligar();
+
+            Console.ReadKey();
         }
     }
 }

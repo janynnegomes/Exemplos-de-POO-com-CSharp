@@ -13,6 +13,13 @@ namespace Heranca
         List<string> componentes;
 
         string fabricante;
+        string identificacao;
+
+        // Método construtor
+        public Computador(string _identificacao)
+        {
+            this.identificacao = _identificacao;
+        }
 
         public void Formatar() 
         {

@@ -13,6 +13,7 @@ namespace Heranca
             Computador pcJanynne = new Computador("Lenovo-Janynne");
 
             pcJanynne.Ligar();
+            pcJanynne.ListarComponentes();
 
             Console.ReadKey();
         }

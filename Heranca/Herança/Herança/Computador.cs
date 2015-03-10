@@ -57,5 +57,22 @@ namespace Heranca
             this.Ligar();
             
         }
+        public void ListarComponentes()
+        {
+            if (this.componentes.Count > 0)
+            {
+                Console.WriteLine("Componentes instalados: ");
+
+                foreach (string item in this.componentes)
+                {
+                    Console.WriteLine(item);
+                }
+            }
+            else {
+                Console.WriteLine("Nenhum componente instalado ainda.");            
+            }
+            
+
+        }
     }
 }

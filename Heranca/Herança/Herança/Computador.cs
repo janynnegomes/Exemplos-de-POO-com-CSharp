@@ -29,12 +29,12 @@ namespace Heranca
 
         public void Ligar() {
             
-            Console.WriteLine("Computador ligado...");
+            Console.WriteLine("Computador "+this.identificacao+" ligado...");
         }
 
         public void Desligar() {
 
-            Console.WriteLine("Computador desligado...");
+            Console.WriteLine("Computador " + this.identificacao + " desligado...");
         }
 
         public void Reiniciar() {

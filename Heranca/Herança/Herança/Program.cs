@@ -10,7 +10,7 @@ namespace Heranca
     {
         static void Main(string[] args)
         {
-            Computador pcJanynne = new Computador();
+            Computador pcJanynne = new Computador("Lenovo-Janynne");
 
             pcJanynne.Ligar();
 

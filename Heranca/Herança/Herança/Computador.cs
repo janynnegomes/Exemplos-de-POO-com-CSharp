@@ -7,13 +7,16 @@ using System.Threading.Tasks;
 namespace Heranca
 {
     // Nome da classe
-    class Computador
+    public class Computador
     {
         // Armazena a lista de componentes que o computador possui
-        List<string> componentes;
+        protected List<string> componentes;
 
-        string fabricante;
-        string identificacao;
+        protected string fabricante;
+        protected string identificacao;
+
+        // Método construtor padrão
+        public Computador() { }
 
         // Método construtor
         public Computador(string _identificacao)
@@ -61,15 +64,19 @@ namespace Heranca
         {
             if (this.componentes.Count > 0)
             {
-                Console.WriteLine("Componentes instalados: ");
+                Console.WriteLine("");
+                Console.WriteLine("****************** Componentes instalados **************************");
 
                 foreach (string item in this.componentes)
                 {
-                    Console.WriteLine(item);
+                    Console.WriteLine("*  "+item);
                 }
+
+                Console.WriteLine("********************************************************************");
             }
             else {
-                Console.WriteLine("Nenhum componente instalado ainda.");            
+                Console.WriteLine("");
+                Console.WriteLine("******************* Nenhum componente instalado ainda. *********************");            
             }
             
 

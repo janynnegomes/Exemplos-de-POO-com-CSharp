@@ -13,7 +13,13 @@ namespace Heranca
             Computador pcJanynne = new Computador("Lenovo-Janynne");
 
             pcJanynne.Ligar();
+
             pcJanynne.ListarComponentes();
+
+            Notebook notebookJanynne = new Notebook("Ideapad-Janynne");
+
+            notebookJanynne.Ligar();
+            notebookJanynne.ListarComponentes();
 
             Console.ReadKey();
         }

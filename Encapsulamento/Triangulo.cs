@@ -13,10 +13,6 @@ namespace Encapsulamento
         public float Lado_B { get; set; }
         public float Lado_C { get; set; }
         public string Cor { get; set; }
-        public int Area { get; set { 
-        
-            // Inserir aqui o calculo
-        } }
 
     }
 }

@@ -10,7 +10,7 @@ namespace Encapsulamento
     {
         static void Main(string[] args)
         {
-            
+            Triangulo TrianguloRetangulo = new Triangulo();
         }
     }
 }
